@@ -25,6 +25,15 @@ if (menuBtn && menu) {
     });
 }
 
+// Open About Project page
+const aboutProjectLink = document.getElementById("aboutProject");
+
+if (aboutProjectLink) {
+    aboutProjectLink.addEventListener("click", function (e) {
+        e.preventDefault();
+        window.location.href = "aboutproject.html";
+    });
+}
 // ===== SMOOTH SCROLL =====
 document.querySelectorAll("nav a").forEach(link => {
     link.addEventListener("click", function (e) {
@@ -158,7 +167,7 @@ window.onload=function(){
 
 setTimeout(()=>{
 
-alert("🌈 Welcome to Little Stars PlaySchool!");
+alert("🌈 Welcome to Little wings PlaySchool!");
 
 },1000);
 
