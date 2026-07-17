@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Project | Little wings PlaySchool</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f9ff;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#ff6b6b,#4ecdc4);
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:40px auto;
+}
+
+.card{
+    background:white;
+    margin-bottom:25px;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#ff6b6b;
+    margin-bottom:15px;
+}
+
+ul{
+    padding-left:20px;
+    line-height:1.8;
+}
+
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+</style>
+const aboutProjectLink = document.getElementById("aboutProject");
+
+if (aboutProjectLink) {
+    aboutProjectLink.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        const openPage = confirm("Do you want to open the About Project page?");
+
+        if (openPage) {
+            window.location.href = "aboutproject.html";
+        }
+    });
+}
+
+</head>
+
+<body>
+
+<header>
+<h1>🦋 Little wings PlaySchool</h1>
+<p>About</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>Project Overview</h2>
+<p>
+The <strong>Little Wings PlaySchool Website</strong> is a modern, responsive, and interactive website created to provide parents with complete information about the playschool. It includes details about school programs, facilities, gallery, events, admission, and contact information. The website is designed with a colorful and child-friendly interface to create an enjoyable browsing experience.
+</p>
+</div>
+<div class="card">
+    <h2>Title</h2>
+    <p>playschool website</p>
+</div>
+<div class="card">
+    <h2>Team name</h2>
+    <p>Trio tech's</p>
+</div>
+
+<div class="card">
+<h2>Objectives</h2>
+<ul>
+<li>Create an attractive and responsive playschool website.</li>
+<li>Provide complete information about the school.</li>
+<li>Allow parents to submit online admission enquiries.</li>
+<li>Showcase school programs and activities.</li>
+<li>Improve communication between parents and the school.</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Key Features</h2>
+<ul>
+<li>Responsive Design</li>
+<li>Animated Home Page</li>
+<li>About Us Section</li>
+<li>Programs Section</li>
+<li>Image Gallery</li>
+<li>Upcoming Events</li>
+<li>Parent Testimonials</li>
+<li>Online Admission Form</li>
+<li>Dark/Light Mode</li>
+<li>AI-style Chatbot</li>
+<li>Smooth Scrolling and Animations</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Technologies Used</h2>
+<ul>
+<li>HTML5</li>
+<li>CSS3</li>
+<li>JavaScript</li>
+<li>Google Fonts</li>
+<li>Font Awesome Icons</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Advantages</h2>
+<ul>
+<li>Easy to use and navigate</li>
+<li>Fully responsive on all devices</li>
+<li>Modern and colorful design</li>
+<li>Fast loading performance</li>
+<li>Simple to maintain and update</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Future Enhancements</h2>
+<ul>
+<li>Online Fee Payment</li>
+<li>Student & Parent Login</li>
+<li>Attendance Management</li>
+<li>Google Maps Integration</li>
+<li>Admin Dashboard</li>
+<li>Live Chat Support</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Folder structure</h2>
+<p>
+    <ol>
+        <li>playschool</li>
+        <li>|-index.html</li>
+        <li>|-images</li>
+        <li>|-aboutproject.html</li>
+        <li>|-style.css</li>
+        <li>|-script.js</li>
+    </ol>
+
+</p>
+</div>
+<div class="card">
+    <h2>Team details</h2>
+    <p><b>lavanya<br>
+    poonam singh<br>
+    supritha
+    </b></p>
+</div>
+<button id="aboutBtn">About Project</button>
+
+</div>
+
+<footer>
+<p>© 2026 Little wings PlaySchool | About Project|develop</p>
+</footer>
+
+</body>
+</html>
